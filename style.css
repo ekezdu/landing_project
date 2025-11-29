@@ -1,0 +1,35 @@
+.header {
+    /* visual */
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-family: roboto;
+    /* flex */
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* links */
+a:link {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:active{ 
+    text-decoration: none;
+}
