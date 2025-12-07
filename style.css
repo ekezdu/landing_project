@@ -17,6 +17,7 @@
 .header {
     padding-left: 60px;
     padding-right: 60px;
+    padding-top: 10px;
 /* flex  */
     display: flex;
     justify-content: space-between;
@@ -42,26 +43,32 @@
 
 /* intro section  */
 
+
+.intro {
+    padding: 60px;
+/* flex  */
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+
+}
+
+.introbox {
+    max-height: fit-content;
+}
+
 .awesome {
+    color: #f9faf8;
     font-size: 48px;
     font-weight: 900;
 }
 
-.intro {
-    display: flex;
-    padding: 20px;
-}
-
-.intropic {
-    border: solid;
-    border-color: red;
-    align-self: center;
-    display: flex;
-    max-height: fit-content;
-}
-
-.introleft {
-    
+.introtext {
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 300;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 
@@ -91,6 +98,7 @@
     flex: 0;
     text-align: center;
     color: grey;
+    gap: 10px;
 }
 
 .infoimg {
@@ -98,13 +106,14 @@
     border: solid;
     border-width: 3px;
     border-color: #3882f6;
+    min-height: 200px;
+    min-width: 200px;
 }
 
 /* quote section  */
 
 .quotesection {
     background-color: #e5e7eb;
-    margin: -10px;
     color: #1f2937;
     display: flex;
     justify-content: center;
@@ -119,6 +128,7 @@
     font-style: italic;
     font-size: 36px;
     font-weight: 300;
+    padding: 10px;
 }
 
 .quoteend {
@@ -152,3 +162,20 @@ button {
     border-radius: 5px;
     padding: 5px;
 }
+
+img {
+    max-width:100%;
+    min-width: 200px;
+    
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
