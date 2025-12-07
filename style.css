@@ -1,5 +1,7 @@
 .body {
     font-family: Roboto;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -8,47 +10,38 @@
 .top {
     color: #e5e7eb;
     background-color: #1f2937;
-    display: flex;
-    flex-direction: column;
-    padding: 70px;
-    margin: -10px;
-    justify-content: space-around;
 }
 
-.header, .intro {
+/* header  */
+
+.header {
+    padding-left: 60px;
+    padding-right: 60px;
+/* flex  */
     display: flex;
-    align-items: center;
-    align-content: space-between;
     justify-content: space-between;
-    margin: 10px;
-    margin-top: -30px;
+    align-items: center;
 }
 
-
-.intro {
-    display: flex;
-    padding-top: 80px;
-}
-
-.introleft {
-    display: flex;
-    flex-direction: column;
-    padding-right: 40px;
+.headerlogo {
+    font-size: 20px;
+    font-weight: 800;
+    color: #f9faf8;
 }
 
 .headerlinks {
+    font-size: 18px;
+    color:#e5e7eb;
+    font-weight: 300;
+/* flex  */
     display: flex;
     gap: 20px;
-}
-
-.intropic {
-    align-self: center;
 }
 
 .awesome {
     font-size: 48px;
     font-weight: 900;
-    margin-bottom: -10px;
+
 }
 
 
@@ -100,7 +93,6 @@
 
 .quote {
     max-width: 700px;
-
     margin: 20px;
 }
 
@@ -114,8 +106,7 @@
     font-weight: 800;
     font-style: normal;
     font-size: 24px;
-    align-self:flex-end;
-    margin-top: -40px;
+    text-align: right;
 }
 
 
@@ -124,7 +115,6 @@
 /* links */
 a:link {
     color: #e5e7eb;
-    font-size: 18px;
     text-decoration: none;
 }
 a:visited {
