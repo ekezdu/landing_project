@@ -45,20 +45,23 @@
     align-self: center;
 }
 
+.awesome {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: -10px;
+}
+
 
 
 /* info section */
 
-.info {
-
-}
 
 .infoheader {
     display: flex;
     justify-content: center;
     color: #1f2937;
     margin: 20px;
-
+    font-size: 36px;
 }
 
 .infoboxes {
@@ -85,8 +88,35 @@
     border-color: #3882f6;
 }
 
+/* quote section  */
 
+.quotesection {
+    background-color: #e5e7eb;
+    margin: -10px;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
 
+.quote {
+    max-width: 700px;
+
+    margin: 20px;
+}
+
+.quotetext {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.quoteend {
+    font-weight: 800;
+    font-style: normal;
+    font-size: 24px;
+    align-self:flex-end;
+    margin-top: -40px;
+}
 
 
 
