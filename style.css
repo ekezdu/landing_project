@@ -12,7 +12,7 @@
     background-color: #1f2937;
 }
 
-/* header  */
+/* header section */
 
 .header {
     padding-left: 60px;
@@ -38,12 +38,31 @@
     gap: 20px;
 }
 
+
+
+/* intro section  */
+
 .awesome {
     font-size: 48px;
     font-weight: 900;
-
 }
 
+.intro {
+    display: flex;
+    padding: 20px;
+}
+
+.intropic {
+    border: solid;
+    border-color: red;
+    align-self: center;
+    display: flex;
+    max-height: fit-content;
+}
+
+.introleft {
+    
+}
 
 
 /* info section */
