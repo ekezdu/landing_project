@@ -50,6 +50,7 @@
     display: flex;
     gap: 30px;
     justify-content: center;
+    align-items: center;
 
 }
 
@@ -71,16 +72,27 @@
     padding-bottom: 10px;
 }
 
+.topbutton {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-family: Roboto;
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
 
 /* info section */
 
 
 .infoheader {
-    display: flex;
-    justify-content: center;
     color: #1f2937;
     margin: 20px;
     font-size: 36px;
+/* flex  */
+    display: flex;
+    justify-content: center;
 }
 
 .infoboxes {
@@ -93,11 +105,12 @@
 }
 
 .box {
+    text-align: center;
+    color: grey;
+/* flex  */
     display: flex;
     flex-direction: column;
     flex: 0;
-    text-align: center;
-    color: grey;
     gap: 10px;
 }
 
@@ -115,6 +128,7 @@
 .quotesection {
     background-color: #e5e7eb;
     color: #1f2937;
+/* flex  */
     display: flex;
     justify-content: center;
 }
@@ -138,6 +152,63 @@
     text-align: right;
 }
 
+/* call to action  */
+
+.bottomsection {
+    display: flex;
+    justify-content: center;
+}
+
+.signup {
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 90px;
+    padding-right: 90px;
+    margin: 50px;
+/* flex  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.signuptxt {
+    color: #f9faf8;
+    
+}
+
+.signupbutton {
+    border: #f9faf8;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-family: Roboto;
+    font-weight: 600;
+    width: 80px;
+    border: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+
+/* footer  */
+
+
+.footer {
+    background-color: #1f2937;
+    padding: 30px;
+    color: #f9faf8;
+/* flex  */
+    display: flex;
+    justify-content: center;
+
+}
+
+
 
 
 
@@ -153,15 +224,6 @@ a:active{
     text-decoration: none;
 }
 
-button {
-    background-color: #3882f6;
-    color: #e5e7eb;
-    font-family: Roboto;
-    width: 80px;
-    border: none;
-    border-radius: 5px;
-    padding: 5px;
-}
 
 img {
     max-width:100%;
@@ -174,8 +236,13 @@ h1 {
     padding: 0;
 }
 
+h3 {
+    margin: 5px;
+    padding: 0;
+}
+
 p {
-    margin: 0;
+    margin: 5px;
     padding: 0;
 }
 
